@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/ea793c5d5b.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ardoise Magique</title>
+</head>
+<body>
+<header>
+    <h1 class="fas fa-paint-brush">Ardoise magique ;-)</h1>
+</header>
+  <main>
+    <canvas id="ardoise" height="300px" width="300px"></canvas>
+    <canvas id="palette" class="hide" height="200px" width="200px"></canvas>
+    <hr>
+     <p>Outils</p>
+     <button id="effacer"><i class="fas fa-eraser"></i></button> <button id="pipette"><i class="fas fa-eye-dropper"></i></button>
+     <p>Couleurs</p>
+     <div>
+        <span  data-couleur="#000" class="color noir"><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#A52A2A" class="color marron" ><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#FF0000" class="color rouge"><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#FFFF00" class="color jaune" ><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#008000" class="color vert"><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#40E0D0" class="color turquoise"><i class="fas fa-circle"></i></span>
+        <span  data-couleur= "#0000FF" class="color bleu"><i class="fas fa-circle"></i></span>
+    </div>
+        <p>Epaisseur</p>
+        <div>
+            <button data-epaisseur="1" class="epaisseur">Fin</button>
+            <button data-epaisseur="5" class="epaisseur">Normal</button>
+            <button data-epaisseur="10" class="epaisseur">Epais</button>
+       </div>
+    </main>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="palette.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

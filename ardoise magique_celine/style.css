@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(223, 219, 219);
+}
+
+.noir{
+    color: black;
+}
+.marron{
+    color: maroon;
+}
+
+.rouge{
+    color: red;
+}
+
+.jaune{
+    color: yellow;
+}
+
+.vert{
+    color: green;
+}
+
+.turquoise{
+    color: rgb(97, 196, 196);
+}
+
+.bleu{
+    color:rgb(71, 128, 194);
+}
+
+#ardoise{
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey ;
+}
+
+h1{
+    color: brown;
+}
+p{
+    color:blue;
+}
+#palette{
+    border:1px solid black;
+    cursor: crosshair;
+}
+
+#ardoise{
+
+    cursor: default;
+    background-color: azure;
+    margin-right: 15px;
+    
+     
+}
+span{
+    font-size: 2em;
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
